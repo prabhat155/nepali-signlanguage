@@ -31,7 +31,7 @@ Both models are trained on the same dataset, but the new landmark-based approach
 
 The dataset used is the [Nepali Sign Language Character Dataset](https://www.kaggle.com/datasets/biratpoudelrocks/nepali-sign-language-character-dataset) from Kaggle, containing:
 
-- **36 Classes**: Representing Nepali Sign Language characters (e.g., अ, आ, इ, ..., ह).
+- **36 Classes**: Representing Nepali Sign Language characters (e.g., क (ka), ख (kha), ग (ga), घ (gha), ङ (nga), ...,  ज्ञ (gya)).
 - **Two Background Types**:
   - **Plain Background**: 1,000 images per class (36,000 total).
   - **Random Background**: 500 images per class (18,000 total).
@@ -227,7 +227,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **Dataset Provider**: [Birat Poudel](https://www.kaggle.com/biratpoudelrocks) for the Nepali Sign Language Character Dataset.
 - **Libraries**: TensorFlow, Keras, NumPy, Matplotlib, Scikit-learn, KaggleHub, OpenCV, MediaPipe, tqdm.
 - **Community**: Thanks to the open-source community for enabling this project.
-
----
-
-_Built with ❤️ for accessibility and inclusion._
